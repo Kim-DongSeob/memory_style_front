@@ -7,6 +7,8 @@ app 디렉토리는 app/layout.js를 무조건 포함하고 있어야 한다.
 
 // import './globals.css'
 import { Inter } from 'next/font/google'
+import Link from "next/link";
+import HeaderLayout from "@/containers/layout/HeaderLayout";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +21,10 @@ export default function RootLayout({children,}: { children: React.ReactNode }) {
   return (
     <html lang="en">
       {/* 각 종 메타데이터 삽입 */}
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <HeaderLayout />
+        {children}
+      </body>
     </html>
   )
 }

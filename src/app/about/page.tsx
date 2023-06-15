@@ -1,6 +1,12 @@
+'use client';
+
+import AboutContainer from "@/containers/about/AboutContainer";
+
 const AboutPage = () => {
   return (
-    <div>About Page</div>
+    <>
+      <AboutContainer />
+    </>
   )
 }
 
