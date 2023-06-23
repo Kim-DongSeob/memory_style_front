@@ -1,8 +1,9 @@
 `use client`;
 
-import DescriptionView from "@/containers/about/views/DescriptionView";
-import ProfileView from "@/containers/about/views/ProfileView";
+import DescriptionView from "@/2_view/about/views/DescriptionView";
+import ProfileView from "@/2_view/about/views/ProfileView";
 import React from "react";
+import ProfileImageView from "@/2_view/about/views/ProfileImagView";
 
 const AboutContainer = () => {
   const handleClickProfileLink = (event: React.MouseEvent<HTMLElement> ) => {
@@ -11,7 +12,8 @@ const AboutContainer = () => {
   return (
     <>
       <div>AboutContainer</div>
-      <ProfileView onClick={(e) => handleClickProfileLink(e)}/>
+        <ProfileImageView />
+        {/*<ProfileView onClick={(e) => handleClickProfileLink(e)}/>*/}
       <DescriptionView />
     </>
   )

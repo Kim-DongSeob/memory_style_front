@@ -1,6 +1,6 @@
 'use client';
 
-import AboutContainer from "@/containers/about/AboutContainer";
+import AboutContainer from "@/2_view/about/AboutContainer";
 
 const AboutPage = () => {
   return (

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import {useEffect, useState} from "react";
-import {LayoutApiStub} from "@/2_api/layout";
+import {LayoutApiStub} from "@/1_api/layout";
 
 interface Menu {
   id: string;

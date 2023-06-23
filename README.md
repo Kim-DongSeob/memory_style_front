@@ -33,6 +33,8 @@ Next.js를 사용한다면 철저하게 SSR 컴포넌트와 CSR 컴포넌트를 
 
 
 
+
+
 [//]: # (This is a [Next.js]&#40;https://nextjs.org/&#41; project bootstrapped with [`create-next-app`]&#40;https://github.com/vercel/next.js/tree/canary/packages/create-next-app&#41;.)
 
 [//]: # ()
