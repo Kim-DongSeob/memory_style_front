@@ -22,7 +22,7 @@ const HeaderLayout = (
   return (
     <div>
       <div>Header</div>
-      <button onClick={onClick}>Header CSR Button</button>
+      {onClick && <button onClick={onClick}>Header CSR Button</button>}
     </div>
   )
 }
