@@ -18,7 +18,7 @@ interface Props {
 const MenuView = (props?: Props) => {
   // const {menuList} = props;
 
-  const [menuList, setMenuList ] = useState();
+  const [menuList, setMenuList ] = useState<Menu[]>([]);
   useEffect(() => {
     console.log('rhrhrhrhrh')
     LayoutApiStub.test().then(r => setMenuList(r.data));
